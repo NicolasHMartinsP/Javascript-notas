@@ -15,6 +15,17 @@ const nomi = "Nico";
 const idade = "19";
 console.log(`${nomi} tem ${idade} anos`);
 
+//arrays
+const array = [1, 2, 4, 5];
+//objetos
+const pessoa01 = {
+  idade: 25,
+  nome: "niquin",
+  sobrenome: "inacio lula",
+};
+console.log(pessoa01.nome);
+console.log(pessoa01.sobrenome);
+
 //functions
 function criaPessoa(nome, sobrenome, idade) {
   return { nome, sobrenome, idade };
