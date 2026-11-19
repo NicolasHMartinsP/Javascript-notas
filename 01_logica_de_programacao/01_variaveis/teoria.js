@@ -14,3 +14,30 @@ console.log(nome);
 const nomi = "Nico";
 const idade = "19";
 console.log(`${nomi} tem ${idade} anos`);
+
+//functions
+function criaPessoa(nome, sobrenome, idade) {
+  return { nome, sobrenome, idade };
+}
+
+const pessoa1 = criaPessoa("Luiz", "Miranda", 25);
+const pessoa2 = criaPessoa("Marquin", "da silva", 100);
+console.log(pessoa1.nome);
+
+const pessoal = {
+  nome: "picotico",
+  sobrenome: "wanna be the guy",
+  idade: 25,
+
+  fala() {
+    console.log(`${this.nome} ${this.sobrenome} tem ${this.idade} anos.`);
+  },
+
+  aumentaIdade() {
+    this.idade++;
+  },
+};
+
+pessoal.fala();
+pessoal.aumentaIdade();
+pessoal.fala();
