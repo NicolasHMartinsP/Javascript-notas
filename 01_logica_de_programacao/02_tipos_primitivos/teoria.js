@@ -15,3 +15,20 @@ console.log(typeof anima, typeof num21, typeof nomeanimal, typeof aprovado);
 const a = [1, 2];
 const b = a;
 console.log(a, b);
+//imutaveis - string, number, boolean, undefined,
+//null (bigint,symbol)
+/*
+>
+>=
+<
+<=
+==
+===
+!=
+!==
+*/
+console.log(10 > 5);
+//operadores lógicos 
+//&& and E
+//|| OR OU
+//! NOT não
