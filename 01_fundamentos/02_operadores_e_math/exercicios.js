@@ -19,3 +19,13 @@
 //9. (Difícil) Arredondamento de Nota Fiscal: Crie uma função de arredondamento com N casas que use "meio para longe do zero" e acerte os casos em que o ponto flutuante engana o Math.round (como 1.005 com 2 casas).
 
 //10. (Difícil) Boletim da Turma: Receba um array de notas e retorne média, mediana, desvio padrão populacional, menor nota, maior nota e amplitude, sem alterar o array original. Array vazio retorna null.
+
+/*
+Exercício: crie as variaveis a, b e c e faça elas
+trocarem de valor entre elas A>B>C
+*/
+let varA = "A";
+let varB = "B";
+let varC = "C";
+[varA, varB, varC] = [varB, varC, varA];
+console.log(varA, varB, varC);

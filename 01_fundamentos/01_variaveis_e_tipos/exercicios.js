@@ -19,3 +19,22 @@
 //9. (Difícil) Cupom Fiscal da Padaria: Receba uma lista de itens { nome, qtd, preco } e monte o texto do cupom com uma linha por item, subtotal, desconto de 10% quando o subtotal passar de R$ 100 e total, com valores em 2 casas decimais.
 
 //10. (Difícil) Leitor de Arquivo de Configuração: Receba o texto de um arquivo no formato CHAVE=valor (uma por linha) e retorne um objeto com os valores convertidos para boolean, null, number ou string. Ignore linhas vazias e comentários (#), remova espaços extras e considere que o valor pode conter "=".
+
+/*
+Exercício: com nome, idade, peso e altura,
+calcule o IMC e o ano de nascimento e exiba tudo
+em uma única frase usando template strings.
+*/
+const nomi = "Nico";
+const idade = "19";
+const peso = "79";
+const altura = "1.70";
+let imc = peso / (altura * altura);
+console.log(imc);
+const ano = 2026;
+let anoNascimento = ano - idade;
+console.log(anoNascimento);
+//template strings
+console.log(
+  `${nomi} tem ${altura} de altura, tem ${idade} anos e pesa ${peso} kg seu imc é de ${imc}, nasceu no ano de ${anoNascimento}`,
+);
