@@ -1,3 +1,9 @@
+/*
+Exercício: formulário de pessoas.
+Ao enviar o formulário (nome, sobrenome, peso e altura), guarde cada
+pessoa como objeto dentro de um array e mostre os dados na página.
+(abrir o resolvidos.html no navegador)
+*/
 function meuEscopo() {
   const form = document.querySelector(".form");
   const resultado = document.querySelector(".resultado");
